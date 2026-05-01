@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Infinit Welding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="background:#1a3a5c; color:white; padding:20px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+    <img src="kk.jpg" alt="Logo" style="height:60px; border-radius:10px;">
+    <div><h1 style="margin:0;">INFINIT <span style="color:#ff6b35;">WELDING</span></h1><p style="margin:0;">Quality Fabrication <body> Welding Solutions</p></div>
+    <div style="margin-left:auto;"><a href="index.html" style="color:white; text-decoration:none;">Home</a> | <a href="about.html" style="color:white; text-decoration:none;">About</a> | <a href="services.html" style="color:white; text-decoration:none;">Services</a> | <a href="market.html" style="color:white; text-decoration:none;">Market</a> | <a href="team.html" style="color:white; text-decoration:none;">Team</a> | <a href="production.html" style="color:white; text-decoration:none;">Production</a> | <a href="financial.html" style="color:white; text-decoration:none;">Finances</a> | <a href="contact.html" style="color:white; text-decoration:none;">Contact</a></div>
+</div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>INFINIT<span>WELDING</span></h1>
+                <p>Quality Fabrication & Welding Solutions</p>
+            </div>
+            <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="market.html">Market</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="production.html">Production</a></li>
+                    <li><a href="financial.html">Finances</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch for quotes, inquiries, or consultations</p>
+        </div>
+    </section>
+
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Thika-Nairobi Highway, 500m from Thika Town Centre<br>Near Police Post (100m for security)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📞</span>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>0797740754</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">✉️</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>xyocapatric@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📮</span>
+                        <div>
+                            <h3>Postal Address</h3>
+                            <p>P.O. Box 0100, Thika, Kenya</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form id="inquiry-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Phone Number">
+                        <select>
+                            <option>Select Service</option>
+                            <option>Gates & Doors</option>
+                            <option>Windows & Grills</option>
+                            <option>Steel Frames</option>
+                            <option>Tanks & Containers</option>
+                            <option>Welding Repairs</option>
+                            <option>Custom Fabrication</option>
+                        </select>
+                        <textarea rows="5" placeholder="Tell us about your project..."></textarea>
+                        <button type="submit" class="btn">Send Message →</button>
+                    </form>
+                    <p id="form-message" style="display:none; color:green; margin-top:1rem;"></p>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <h2>Our Location</h2>
+                <div class="map-placeholder">
+                    <p>📍 Infinity Welding and Fabrication Ltd</p>
+                    <p>Thika-Nairobi Highway, Thika, Kenya</p>
+                    <p>500m from Thika Town Centre | Near Police Post</p>
+                    <div class="simple-map">
+                        ═══════════════════════════════════<br>
+                        ← Thika Town Centre (500m)<br>
+                        🏢 INFINIT WELDING & FABRICATION LTD<br>
+                        🚔 Police Post (100m)<br>
+                        → Nairobi (45km)<br>
+                        ═══════════════════════════════════
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>INFINIT WELDING</h3>
+                    <p>Professional metal fabrication and welding services in Thika, Kenya.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p>📍 Thika-Nairobi Highway, Thika</p>
+                    <p>📞 0797740754</p>
+                    <p>✉️ xyocapatric@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Infinity Welding | Patrick Nzioka Mutisya (2021150066)</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
